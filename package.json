@@ -1,0 +1,8 @@
+{
+  "name": "vue-geolink",
+  "version": "1.0.0",
+  "description": "Link to platform specific Maps",
+  "main": "index.vue",
+  "author": "Thomas Alrek",
+  "license": "MIT"
+}
