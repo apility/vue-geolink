@@ -1,7 +1,10 @@
 <template>
   <div @click.prevent="open">
     <slot></slot>
-  </div> </template> <script>
+  </div>
+</template>
+
+<script>
   export default {
     props: ['lat', 'lng', 'zoom', 'label'],
     methods: {
