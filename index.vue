@@ -9,7 +9,7 @@
     props: ['lat', 'lng', 'zoom', 'label', 'address'],
     methods: {
       open (e) {
-        if (!this.address || (!this.lat || !this.lng)) {
+        if (!this.address && (!this.lat || !this.lng)) {
           return
         }
         let isApple = /(iPad)|(iPhone)|(iPod)/i.test(navigator.userAgent)
